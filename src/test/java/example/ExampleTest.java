@@ -10,6 +10,6 @@ public class ExampleTest {
     @Test
     void name() {
         open("https://docs.github.com/en/actions");
-        $("#title-h1").shouldHave(text("GitHub Actions documentation"));
+        $("#title-h1").shouldHave(text("Проверка"));
     }
 }
